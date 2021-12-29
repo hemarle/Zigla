@@ -2,6 +2,8 @@
     background: url('./images/video-bg.png') no-repeat;
     min-height: 100vh;
     min-width: 100vw;
+    margin-top: 40px;
+padding-bottom:200px ;
 }
 .about__Card{
     background: rgb(103, 103, 206);
