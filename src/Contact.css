@@ -1,0 +1,36 @@
+.contact{
+    text-align: center;
+    padding: 20px;
+    background: url(./images/cases-bg.png) no-repeat ;
+    background-size: cover;
+    background-position: center;
+}
+.contact h2{
+    margin: 20px 0px 30px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+.contact input, textarea{
+    margin-bottom: 20px;
+    height: 50px;
+    background-color: rgba(61, 59, 59, 0.3);
+    outline: none;
+    border: none;
+    padding: 20px;
+   border-radius: 5px;
+
+}
+.contact input:hover, .contact textarea:hover{
+background-color: white;
+}
+.contact textarea{
+    height: auto;
+    resize: none;
+    
+}
+
+.contact .button{
+    height: 70px;
+}

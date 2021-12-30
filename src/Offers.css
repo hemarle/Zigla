@@ -1,0 +1,58 @@
+.offers{
+    text-align: center;
+    margin-top: 100px;
+    padding: 0px 20px;
+    color: white;
+    background: url(./images/cases-bg.png) no-repeat center top;
+}
+.offers h2{
+    margin-bottom: 70px;
+}
+.offers__Card{
+    margin-top: 40px;
+    position: relative;
+}
+
+.offers__CardImage{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: 0px auto;
+ 
+}
+.offers__CardImage img{
+    border:3px solid blue;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.offers__CardImage::after, .offers__CardImage::before{
+position: absolute;
+content: '';
+width: 150%;
+height: 150%;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: rgba(255, 200, 200, 0.1);
+border: 1px solid blue;
+border-radius: 50%;
+}
+.offers__CardImage::before{
+    width: 200%;
+    height: 200%;
+    border: none;
+}
+.offers__Card h3{
+    margin:  70px 0px 30px 0px;
+}
+.offers__Card p{
+    margin-bottom:70px;
+    line-height: 1.8;
+}
+.button{
+    padding:20px 80px;
+    border-radius: 10px;
+    background:var(--button);
+    color: white; 
+}

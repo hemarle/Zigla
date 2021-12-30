@@ -1,0 +1,36 @@
+.tokensale{
+    margin: 100px 20px;
+    color: white;
+}
+.tokensale hr{
+    width: 40px;
+    margin-right: 10px;
+}
+.tokensale h4{
+    display: flex;
+    align-items: center;
+}
+.tokensale h2{
+    margin:10px 0px 20px;
+}
+.tokensale__Option{
+    display: flex;
+    margin-bottom: 20px;
+}
+.tokensale__Option p{
+    margin-right: 20px;
+}
+
+.tokensale h3{
+    margin:60px 0px 40px;
+  }
+
+  .tokensale__Description{
+      line-height: 1.8;
+       }
+
+  .tokensale .button{
+      display: block;
+      width: max-content;
+    margin:20px auto;
+  }

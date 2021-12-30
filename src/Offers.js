@@ -17,19 +17,19 @@ function Offers() {
       title: "Zigla Mobile App",
       about:
         "Zigla provides a secure mobile wallet app for storing your Zigla Token, BNB, BUSD and USDT",
-      image: img1,
+      image: img2,
     },
     {
       title: "Zigla Mobile App",
       about:
         "Zigla provides a secure mobile wallet app for storing your Zigla Token, BNB, BUSD and USDT",
-      image: img1,
+      image: img3,
     },
     {
       title: "Zigla Mobile App",
       about:
         "Zigla provides a secure mobile wallet app for storing your Zigla Token, BNB, BUSD and USDT",
-      image: img1,
+      image: img4,
     },
     {
       title: "Zigla Mobile App",
@@ -46,7 +46,7 @@ function Offers() {
           <>
             <div className="offers__Card">
               <div className="offers__CardImage">
-                <img src={offer.image} alt="" />
+                <img  src={offer.image} alt="" />
               </div>
               <div className="offers__CardContent">
                 <h3>{offer.title}</h3>
@@ -57,7 +57,7 @@ function Offers() {
         ))}
       </div>
 
-      <a href='/login'> JOIN ICO</a>
+      <a className="button" href='/login'> JOIN ICO</a>
     </div>
   );
 }

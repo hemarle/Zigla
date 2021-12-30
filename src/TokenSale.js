@@ -20,13 +20,37 @@ function TokenSale() {
             <p>Token name:</p>
             <p>Zigla Token</p>
           </div>
+          <div className="tokensale__Option">
+            <p>Token name:</p>
+            <p>Zigla Token</p>
+          </div>
+          <div className="tokensale__Option">
+            <p>Token name:</p>
+            <p>Zigla Token</p>
+          </div>
+          <div className="tokensale__Option">
+            <p>Token name:</p>
+            <p>Zigla Token</p>
+          </div>
+          <div className="tokensale__Option">
+            <p>Token name:</p>
+            <p>Zigla Token</p>
+          </div>
+          <div className="tokensale__Option">
+            <p>Token name:</p>
+            <p>Zigla Token</p>
+          </div>
+          <div className="tokensale__Option">
+            <p>Token name:</p>
+            <p>Zigla Token</p>
+          </div>
         </div>
 
         <h3>General Description</h3>
         <p className="tokensale__Description">
           ZIGLA is building a DeFi banking protocol; unlocking the value of your
           crypto assets in fiat while keeping a long position and not triggering
-          a tax event. ZIGLA is an open-source, non-custodial liquidity protocol
+          a tax event. {'\b'}ZIGLA is an open-source, non-custodial liquidity protocol
           for borrowing fiat (USD and EUR) against crypto collateral and earning
           yield on deposits. The ZIGLA token is used for governance of the
           protocol, and you can stake it to earn yield. ZIGLA is the first

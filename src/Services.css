@@ -1,2 +1,45 @@
-.services{
+.services {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.services h4 {
+  opacity: 0.4;
+}
+.services h2 {
+  margin: 20px 0px;
+}
+.services__Cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.services__Card {
+  width: 90vw;
+  height: 250px;
+  background-color: violet;
+  margin: 10px auto;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.red{
+  background-color: rgb(232, 95, 112);
+}
+.orange{
+  background-color: rgb(250, 137, 54);
+
+}
+.green{
+  background: linear-gradient(-234deg, rgb(106, 228, 114) 0%, rgb(75, 194, 83) 100%);
+
+}
+.blue{
+  background-image: linear-gradient(-234deg, rgb(41, 172, 235) 0%, rgb(0, 144, 213) 100%);
+
+}
+.services__Card p {
+  margin-top: 20px;
+  font-weight: 700;
 }

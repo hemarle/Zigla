@@ -11,19 +11,19 @@ function Services() {
        <h4> Awesome services</h4>     
         <h2>Why you need Zigla</h2>
         <div className="services__Cards">
-         <div className="services__Card">
+         <div className="services__Card red">
              <img src={img1} alt="" />
              <p>Loan</p>
          </div>
-         <div className="services__Card">
+         <div className="services__Card orange">
              <img src={img2} alt="" />
              <p>Crypoland App</p>
          </div>
-         <div className="services__Card">
+         <div className="services__Card green">
              <img src={img4} alt="" />
              <p>Loan</p>
          </div>
-         <div className="services__Card">
+         <div className="services__Card blue">
              <img src={img3} alt="" />
              <p>Blockchain</p>
          </div>
