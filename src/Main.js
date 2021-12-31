@@ -20,9 +20,9 @@ function Main() {
             <Services/>
             <Offers/>
             <TokenSale/>
-            {/* <Distribution/> */}
             <Contact/>
             <Footer/>
+            {/* <Distribution/> */}
 
         </div>
     )

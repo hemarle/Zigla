@@ -31,12 +31,7 @@ function Offers() {
         "Zigla provides a secure mobile wallet app for storing your Zigla Token, BNB, BUSD and USDT",
       image: img4,
     },
-    {
-      title: "Zigla Mobile App",
-      about:
-        "Zigla provides a secure mobile wallet app for storing your Zigla Token, BNB, BUSD and USDT",
-      image: img1,
-    },
+    
   ]);
   return (
     <div className="offers">

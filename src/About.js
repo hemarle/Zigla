@@ -17,7 +17,9 @@ function About() {
             ZIGLA is a decentralized and trustless lending protocol developed
             onthe binance smart chain, with smart contracts and governed by Zigla
             token (ZIGL), it provides a fast,safe and transparent set of tools for
-            anyone to lend and borrow fiat currencies. Zigla lends fiat currencies
+            anyone to lend and borrow fiat currencies. 
+            </p>
+            <p>Zigla lends fiat currencies
             provided by lenders to borrowers that collaterize cryptocurrency in a
             Zigla smart contract. The lender receives a high interest rate from
             secured investment whilst the borrowers can maintain their crypto

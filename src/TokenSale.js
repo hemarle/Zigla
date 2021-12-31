@@ -21,27 +21,30 @@ function TokenSale() {
             <p>Zigla Token</p>
           </div>
           <div className="tokensale__Option">
-            <p>Token name:</p>
+            <p>
+              Ticker Symbol:  
+           
+            </p>
             <p>Zigla Token</p>
           </div>
           <div className="tokensale__Option">
-            <p>Token name:</p>
+            <p>Currency Symbol</p>
             <p>Zigla Token</p>
           </div>
           <div className="tokensale__Option">
-            <p>Token name:</p>
+            <p>Image:</p>
             <p>Zigla Token</p>
           </div>
           <div className="tokensale__Option">
-            <p>Token name:</p>
+            <p>Starting Price Pre-Sale:</p>
             <p>Zigla Token</p>
           </div>
           <div className="tokensale__Option">
-            <p>Token name:</p>
+            <p>  Starting trading price:</p>
             <p>Zigla Token</p>
           </div>
           <div className="tokensale__Option">
-            <p>Token name:</p>
+            <p>Fundraising Goal:</p>
             <p>Zigla Token</p>
           </div>
         </div>
@@ -50,15 +53,15 @@ function TokenSale() {
         <p className="tokensale__Description">
           ZIGLA is building a DeFi banking protocol; unlocking the value of your
           crypto assets in fiat while keeping a long position and not triggering
-          a tax event. {'\b'}ZIGLA is an open-source, non-custodial liquidity protocol
-          for borrowing fiat (USD and EUR) against crypto collateral and earning
-          yield on deposits. The ZIGLA token is used for governance of the
-          protocol, and you can stake it to earn yield. ZIGLA is the first
-          decentralized protocol built on Binance smart chain that incorporates
-          fiat loan capabilities into the crypto ecosystem. This enables low
-          friction transactions between crypto and fiat positions while
-          maintaining control of digital assets. Users will interact with the
-          ZIGLAapp on iOS, Android and in the browser to easily access their
+          a tax event. {"\b"}ZIGLA is an open-source, non-custodial liquidity
+          protocol for borrowing fiat (USD and EUR) against crypto collateral
+          and earning yield on deposits. The ZIGLA token is used for governance
+          of the protocol, and you can stake it to earn yield. ZIGLA is the
+          first decentralized protocol built on Binance smart chain that
+          incorporates fiat loan capabilities into the crypto ecosystem. This
+          enables low friction transactions between crypto and fiat positions
+          while maintaining control of digital assets. Users will interact with
+          the ZIGLAapp on iOS, Android and in the browser to easily access their
           digital assets to lend, borrow and manage the services offered by
           ZIGLA. Users have peace of mind because they keep the keys to their
           assets at all times. ZIGLA offers significant capital efficiency gains
@@ -68,7 +71,10 @@ function TokenSale() {
           transaction costs, high throughput and Binance has more than $50
           billion in stacked security staked within the blockchain.
         </p>
-        <a href="/login" className="button"> Buy Token</a>
+        <a href="/login" className="button">
+          {" "}
+          Buy Token
+        </a>
       </div>
     </div>
   );
